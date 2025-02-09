@@ -1,6 +1,6 @@
 module redistest
 
-go 1.23.5
+go 1.23.4
 
 require github.com/redis/go-redis/v9 v9.7.0
 
