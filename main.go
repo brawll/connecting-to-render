@@ -19,4 +19,5 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
+	_ = client.Set(ctx, "fizz", "buzz", 0).Err()
 }
